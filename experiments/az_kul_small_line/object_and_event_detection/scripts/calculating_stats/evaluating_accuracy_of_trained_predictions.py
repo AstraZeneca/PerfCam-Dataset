@@ -337,7 +337,6 @@ def get_accuracy_series_for_plot(pred_df, gt_df, freq='1T'):
         .sort_index()
         .resample(freq)['Selected Count']
         .max()
-        .fillna(method='ffill')
         .rename('Pred')
     )
 
@@ -348,7 +347,6 @@ def get_accuracy_series_for_plot(pred_df, gt_df, freq='1T'):
         .sort_index()
         .resample(freq)['Count']
         .max()
-        .fillna(method='ffill')
         .rename('GT')
     )
 
@@ -415,7 +413,7 @@ def plot_accuracy_lines(accuracy_dfs, edge_name):
 
         # 2) Compute mean accuracy and draw a horizontal line
         # mean_acc = sub['Accuracy'].mean(skipna=True) # Incorrect way to calculate, due to uneven count in each minute
-        mean_acc = sub.ffill().iloc[-1]['Pred'] / sub.ffill().iloc[-1]['GT']
+        mean_acc = sub.dropna().iloc[-1]['Pred'] / sub.dropna().iloc[-1]['GT']
 
         if pd.notna(mean_acc):
             # Plot the dotted line at the exact mean
