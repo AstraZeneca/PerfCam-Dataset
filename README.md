@@ -4,7 +4,7 @@
 
 [Michel Gokan Khan](https://michelgokan.github.io/), [Renan Guarese](https://renghp.github.io/), [Fabian Johonsson](https://se.linkedin.com/in/fabianmartinjohnson), [Xi Vincent Wang](https://www.kth.se/profile/wangxi), [Anders Bergman](https://se.linkedin.com/in/anders-bergman-186203), [Benjamin Edvinsson](https://se.linkedin.com/in/benjamin-edvinsson-860ba968), [Mario Romero Vega](https://www.kth.se/profile/marior), [Jérémy Vachier](https://github.com/jvachier), [Jan Kronqvist](https://www.kth.se/profile/jankr)
 
-[[`Paper`](#)] [[`Project`](https://www.digitalfutures.kth.se/research/industrial-postdoc-projects/smart-smart-predictive-maintenance-for-the-pharmaceutical-industry/)] [[`BibTeX`](#citing-perfcam-dataset)]
+[[`Paper`](#)] [[`Dataset`](https://github.com/AstraZeneca/PerfCam-Dataset)] [[`Project`](https://www.digitalfutures.kth.se/project/smart-smart-predictive-maintenance-for-the-pharmaceutical-industry/)] [[`BibTeX`](#citing-perfcam-dataset)]
 
 
 ![402361172-5fa3ae9f-5d48-43c2-9d5c-9e2a3c4eb807](https://github.com/user-attachments/assets/1b79665a-2188-43f0-9af4-36d14c5caf4f)
