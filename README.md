@@ -6,9 +6,7 @@
 
 [[`Paper`](#)] [[`Code`](https://github.com/AstraZeneca/PerfCam)] [[`Project`](https://www.digitalfutures.kth.se/project/smart-smart-predictive-maintenance-for-the-pharmaceutical-industry/)] [[`BibTeX`](#citing-perfcam-dataset)]
 
-
-![402361172-5fa3ae9f-5d48-43c2-9d5c-9e2a3c4eb807](https://github.com/user-attachments/assets/1b79665a-2188-43f0-9af4-36d14c5caf4f)
-
+![402361172-5fa3ae9f-5d48-43c2-9d5c-9e2a3c4eb807 (1)](https://github.com/user-attachments/assets/5ee4b684-73be-492b-918a-b56fd538478b)
 
 **PerfCam** is an open-source proof of concept that integrates 3D Gaussian Splatting with real-time object detection to achieve precise digital twinning of industrial production lines. This approach leverages existing camera systems for both 3D reconstruction and object tracking, reducing the need for additional sensors and minimizing initial setup and calibration efforts. 
 
@@ -16,14 +14,14 @@ This repository presents the dataset used in the PerfCam's original paper. This 
 
 ## Dataset
 
-https://github.com/user-attachments/assets/7120515f-0ab8-462b-b11f-c3b36073de83
+https://github.com/user-attachments/assets/9cb84fae-e9b9-4bad-adab-a67144649b6a
 
 Here you can read more about different topics in this dataset:
 
 ### 3D Reconstruction
 [Dataset Generated From PerfCam's Robotic Camera](experiments/az_kul_small_line/3d_reconstruction/by_perfcam/)
 
-[Imaegs Taken Using A Pixel 7 Pro](experiments/az_kul_small_line/3d_reconstruction/by_phone)
+Note: Some sections of certain images have been blurred for compliance reasons.
 
 ### Experiment at AZ Kul
 
@@ -35,11 +33,11 @@ Here you can read more about different topics in this dataset:
 
 ### Raw Output (after feature extraction)
 
-https://github.com/user-attachments/assets/4e1a119a-2352-481a-9b75-cd62e102288b
+https://github.com/user-attachments/assets/543dfa37-0797-453c-a32b-9750450463c1
 
 ### Fused Output
 
-https://github.com/user-attachments/assets/7bcd3374-6998-4cfb-abfb-24b4bd051144
+https://github.com/user-attachments/assets/fc8fe49c-5204-41d9-8b7c-c9c1735a3dd8
 
 ## LFS Considerations
 To optimize this repository's performance and ensure efficient handling of large files, make sure you track the following file types with Git LFS:
