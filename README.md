@@ -21,7 +21,7 @@ Here you can read more about different topics in this dataset:
 ### 3D Reconstruction
 [Dataset Generated From PerfCam's Robotic Camera](experiments/az_kul_small_line/3d_reconstruction/by_perfcam/)
 
-Note: Some sections of certain images have been blurred for compliance reasons.
+Note: Color frames had been removed from the dataset for compliance reasons and only depth images available.
 
 ### Experiment at AZ Kul
 
