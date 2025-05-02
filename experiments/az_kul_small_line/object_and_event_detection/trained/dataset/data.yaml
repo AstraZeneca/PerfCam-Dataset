@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Product']
+
+roboflow:
+  workspace: smart-8nywj
+  project: perfcam
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/smart-8nywj/perfcam/3
